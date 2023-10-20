@@ -232,12 +232,6 @@
     <Compile Include="Utils\TimeUtils.cs" />
     <Compile Include="Utils\Win32.cs" />
     <Compile Include="Utils\WindowHelper.cs" />
-    <Compile Include="Boot\MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Boot\MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Apps\Browser\Browser.resx">
@@ -299,9 +293,6 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Boot\MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -342,6 +333,7 @@
     <Content Include="Plugins\pepflashplayer.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Resources\Logo.png" />
     <None Include="Resources\qrcode.png" />
     <None Include="Resources\check.png" />
     <None Include="Resources\tab_close_s2.png" />

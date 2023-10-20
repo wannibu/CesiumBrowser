@@ -1,13 +1,12 @@
 ﻿using CefSharp;
 using CefSharp.WinForms;
+using Cesium.CustomControls;
+using Cesium.Utils;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using Cesium.CustomControls;
 using test.events;
 using test.Events;
-using Cesium.Utils;
-using Cesium.View;
 
 namespace Cesium.App.CefBrowser
 {
@@ -130,7 +129,7 @@ namespace Cesium.App.CefBrowser
 
         private void Browser_FormClosing(object sender, FormClosingEventArgs e)
         {
-            MainForm.Browsers.Remove(this.Handle);
+            Program.Browsers.Remove(this.Handle);
         }
 
         #region 标题按钮事件

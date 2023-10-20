@@ -1,17 +1,40 @@
-﻿using System;
+﻿using Cesium.App.CefBrowser;
+using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
-using Cesium.View;
 
 namespace Cesium
 {
     class Program
     {
+        public static Dictionary<IntPtr, Browser> Browsers;
+
         [STAThread]
         static void Main(string[] args)
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+
+
+            Browsers = new Dictionary<IntPtr, Browser>();
+            Browser browser = new Browser("https://www.baidu.com");
+            Browsers.Add(browser.Handle, browser);
+            browser.FormClosing += Browser_FormClosing;
+
+
+            Application.Run(browser);
         }
+
+        private static void Browser_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Browser browser = sender as Browser;
+            Browsers.Remove(browser.Handle);
+            if (browser != null)
+            {
+                browser.FormClosing -= Browser_FormClosing;
+                browser.Dispose();
+            }
+        }
+
     }
 }

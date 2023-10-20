@@ -1,11 +1,10 @@
-﻿using System;
+﻿using Cesium.App.CefBrowser;
+using Cesium.App.CefBrowser.Tab;
+using Cesium.Utils;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
-using Cesium.App.CefBrowser;
-using Cesium.App.CefBrowser.Tab;
-using Cesium.Utils;
-using Cesium.View;
 
 namespace Cesium.CustomControls
 {
@@ -202,9 +201,9 @@ namespace Cesium.CustomControls
                     this.ParentForm.Top += e.Location.Y - enterY;
 
                     //窗口数量大于1，将一个窗口拖至另一窗口时，两窗口合并
-                    if (MainForm.Browsers.Count > 1)
+                    if (Program.Browsers.Count > 1)
                     {
-                        foreach (var browser in MainForm.Browsers)
+                        foreach (var browser in Program.Browsers)
                         {
                             if (browser.Key.Equals(this.ParentForm.Handle))
                                 continue;
@@ -280,7 +279,7 @@ namespace Cesium.CustomControls
                         ctrl.tabMarginLeft = offsetX;
                         removeEvents(ctrl.page.Controls);
                         Browser browser = new Browser(ctrl, this.ParentForm.Size);
-                        MainForm.Browsers.Add(browser.Handle, browser);
+                        Program.Browsers.Add(browser.Handle, browser);
                         Tab_MouseUp(sender, e);
                         removeTab(ctrl);
                         browser.Show();

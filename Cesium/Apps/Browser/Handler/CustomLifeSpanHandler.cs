@@ -1,8 +1,6 @@
 ﻿using CefSharp;
-using System;
 using Cesium.App.CefBrowser.Tab;
-using Cesium.Utils;
-using Cesium.View;
+using System;
 
 namespace Cesium.App.CefBrowser
 {
@@ -62,7 +60,7 @@ namespace Cesium.App.CefBrowser
                         browser1.Invoke((Action)delegate ()
                         {
                             Browser nBrowser = new Browser(targetUrl);
-                            MainForm.Browsers.Add(nBrowser.Handle, nBrowser);
+                            Program.Browsers.Add(nBrowser.Handle, nBrowser);
                             nBrowser.Show();
                         });
                         break;

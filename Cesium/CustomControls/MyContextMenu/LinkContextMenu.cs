@@ -1,10 +1,9 @@
 ﻿using CefSharp;
-using System;
-using System.Windows.Forms;
 using Cesium.App.CefBrowser;
 using Cesium.App.CefBrowser.Tab;
 using Cesium.Utils;
-using Cesium.View;
+using System;
+using System.Windows.Forms;
 
 namespace Cesium.CustomControls
 {
@@ -48,7 +47,7 @@ namespace Cesium.CustomControls
             browser.Invoke((Action)delegate ()
             {
                 Browser nBrowser = new Browser(link);
-                MainForm.Browsers.Add(nBrowser.Handle, nBrowser);
+                Program.Browsers.Add(nBrowser.Handle, nBrowser);
                 nBrowser.Show();
             });
         }

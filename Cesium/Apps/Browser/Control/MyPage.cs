@@ -1,8 +1,8 @@
 ﻿using CefSharp;
 using CefSharp.WinForms;
 using Cesium.App.CefBrowser.Handler;
+using Cesium.Tables;
 using Cesium.Utils;
-using Cesium.View;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -10,7 +10,6 @@ using System.IO;
 using System.Net;
 using System.Windows.Forms;
 using test.Services;
-using Cesium.Tables;
 
 namespace Cesium.App.CefBrowser
 {
@@ -272,7 +271,7 @@ namespace Cesium.App.CefBrowser
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Dictionary<IntPtr, Browser> browsers = MainForm.Browsers;
+            Dictionary<IntPtr, Browser> browsers = Program.Browsers;
             MessageBox.Show("" + browsers.Count);
         }
     }
