@@ -6,7 +6,7 @@ using Cesium.DataRepository;
 using Cesium.Param;
 using Cesium.Tables;
 
-namespace test.Services
+namespace Cesium.Services
 {
     public class HistoryServices
     {

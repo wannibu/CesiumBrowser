@@ -9,7 +9,7 @@ using System.Drawing;
 using System.IO;
 using System.Net;
 using System.Windows.Forms;
-using test.Services;
+using Cesium.Services;
 
 namespace Cesium.App.CefBrowser
 {

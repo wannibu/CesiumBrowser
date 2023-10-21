@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using test.boot;
 
 namespace Cesium
 {
@@ -14,7 +15,7 @@ namespace Cesium
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
+            new BootPrepare();
 
             Browsers = new Dictionary<IntPtr, Browser>();
             Browser browser = new Browser("https://www.baidu.com");

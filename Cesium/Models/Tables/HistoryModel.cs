@@ -3,7 +3,7 @@ using System;
 
 namespace Cesium.Tables
 {
-    [SugarTable("history", "history")]
+    [SugarTable("history", "f10")]
     public class HistoryModel
     {
         [SugarColumn(ColumnName = "id", IsPrimaryKey = true, IsIdentity = true)]
