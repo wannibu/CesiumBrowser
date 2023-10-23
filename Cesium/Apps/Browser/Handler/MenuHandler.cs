@@ -1,9 +1,9 @@
 ﻿using CefSharp;
-using System;
-using System.Windows.Forms;
-using Cesium.Boot;
 using Cesium.CustomControls;
 using Cesium.CustomForms;
+using System;
+using System.Windows.Forms;
+using static Cesium.Program;
 
 namespace Cesium.App.CefBrowser.Handler
 {

@@ -138,7 +138,6 @@
     <Compile Include="Apps\Browser\Handler\JsDialogHandler.cs" />
     <Compile Include="Models\MyTabOpenMode.cs" />
     <Compile Include="Apps\Browser\Handler\MenuHandler.cs" />
-    <Compile Include="Boot\BootPrepare.cs" />
     <Compile Include="CustomControls\ContextMenu\InputBoxContextMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>

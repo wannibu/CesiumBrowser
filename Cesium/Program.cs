@@ -1,9 +1,9 @@
 ﻿using Cesium.App.CefBrowser;
 using Cesium.CustomControls;
+using Cesium.DataBase;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using Cesium.Boot;
 
 namespace Cesium
 {
@@ -16,13 +16,12 @@ namespace Cesium
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            new BootPrepare();
+            BootPrepare.InitData();
 
             Browsers = new Dictionary<IntPtr, Browser>();
             Browser browser = new Browser("");
             Browsers.Add(browser.Handle, browser);
             browser.FormClosing += Browser_FormClosing;
-
 
             Application.Run(browser);
         }
@@ -36,6 +35,47 @@ namespace Cesium
                 browser.FormClosing -= Browser_FormClosing;
                 browser.Dispose();
             }
+        }
+
+        public static class BootPrepare
+        {
+            private static LinkContextMenu linkContextMenu;
+            private static TextContextMenu TextContextMenu;
+            private static OtherContextMenu otherContextMenu;
+            private static InputBoxContextMenu inputBoxContextMenu;
+            private static InputBoxInPageContextMenu inputBoxInPageContextMenu;
+
+            public static void InitData()
+            {
+                DbSeed.InitData();
+                linkContextMenu = new LinkContextMenu();
+                TextContextMenu = new TextContextMenu();
+                otherContextMenu = new OtherContextMenu();
+                inputBoxContextMenu = new InputBoxContextMenu();
+                inputBoxInPageContextMenu = new InputBoxInPageContextMenu();
+            }
+
+            public static LinkContextMenu GetLinkContextMenu()
+            {
+                return linkContextMenu;
+            }
+            public static TextContextMenu GetTextContextMenu()
+            {
+                return TextContextMenu;
+            }
+            public static OtherContextMenu GetOtherContextMenu()
+            {
+                return otherContextMenu;
+            }
+            public static InputBoxContextMenu GetInputBoxContextMenu()
+            {
+                return inputBoxContextMenu;
+            }
+            public static InputBoxInPageContextMenu GetInputBoxInPageContextMenu()
+            {
+                return inputBoxInPageContextMenu;
+            }
+
         }
 
     }
