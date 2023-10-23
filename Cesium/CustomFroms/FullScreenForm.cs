@@ -1,8 +1,10 @@
 ﻿using CefSharp.WinForms;
 using System.Windows.Forms;
-using test.events;
+using Cesium.Events;
+using Cesium.App.CefBrowser;
+using Cesium.CustomControls;
 
-namespace Cesium.App.CefBrowser
+namespace Cesium.CustomFroms
 {
     public partial class FullScreenForm : Form
     {

@@ -1,5 +1,4 @@
 ﻿using System.Windows.Forms;
-using Cesium.App.CefBrowser;
 
 namespace Cesium.CustomControls
 {
@@ -41,7 +40,7 @@ namespace Cesium.CustomControls
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.spanLeft = new System.Windows.Forms.Panel();
             this.title_left = new System.Windows.Forms.Panel();
-            this.panelTab = new Cesium.App.CefBrowser.MyTabControlPanel();
+            this.panelTab = new MyTabControlPanel();
             this.btn_addTab = new Cesium.CustomControls.PictureButton();
             this.title_right.SuspendLayout();
             this.title_right_buttonGroup.SuspendLayout();

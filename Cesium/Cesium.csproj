@@ -91,10 +91,10 @@
     <Compile Include="Apps\Browser\Browser.Designer.cs">
       <DependentUpon>Browser.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomControls\MyContextMenu\InputBoxInPageContextMenu.cs">
+    <Compile Include="CustomControls\ContextMenu\InputBoxInPageContextMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CustomControls\MyContextMenu\InputBoxInPageContextMenu.Designer.cs">
+    <Compile Include="CustomControls\ContextMenu\InputBoxInPageContextMenu.Designer.cs">
       <DependentUpon>InputBoxInPageContextMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomControls\PopUpControl.cs">
@@ -103,58 +103,58 @@
     <Compile Include="CustomControls\PopUpControl.Designer.cs">
       <DependentUpon>PopUpControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomControls\MyContextMenu\HistoryContextMenu.cs">
+    <Compile Include="CustomControls\ContextMenu\HistoryContextMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CustomControls\MyContextMenu\HistoryContextMenu.Designer.cs">
+    <Compile Include="CustomControls\ContextMenu\HistoryContextMenu.Designer.cs">
       <DependentUpon>HistoryContextMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomControls\MyContextMenu\HistoryContextMenuItem.cs">
+    <Compile Include="CustomControls\ContextMenu\HistoryContextMenuItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CustomControls\MyContextMenu\HistoryContextMenuItem.Designer.cs">
+    <Compile Include="CustomControls\ContextMenu\HistoryContextMenuItem.Designer.cs">
       <DependentUpon>HistoryContextMenuItem.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomControls\MyContextMenu\OtherContextMenu.cs">
+    <Compile Include="CustomControls\ContextMenu\OtherContextMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CustomControls\MyContextMenu\OtherContextMenu.Designer.cs">
+    <Compile Include="CustomControls\ContextMenu\OtherContextMenu.Designer.cs">
       <DependentUpon>OtherContextMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomControls\MyContextMenu\TextContextMenu.cs">
+    <Compile Include="CustomControls\ContextMenu\TextContextMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CustomControls\MyContextMenu\TextContextMenu.Designer.cs">
+    <Compile Include="CustomControls\ContextMenu\TextContextMenu.Designer.cs">
       <DependentUpon>TextContextMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomControls\MyContextMenu\LinkContextMenu.cs">
+    <Compile Include="CustomControls\ContextMenu\LinkContextMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CustomControls\MyContextMenu\LinkContextMenu.Designer.cs">
+    <Compile Include="CustomControls\ContextMenu\LinkContextMenu.Designer.cs">
       <DependentUpon>LinkContextMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Apps\Browser\Handler\CustomLifeSpanHandler.cs" />
     <Compile Include="Apps\Browser\Handler\DownloadHandler.cs" />
     <Compile Include="Apps\Browser\Handler\JsDialogHandler.cs" />
-    <Compile Include="Apps\Browser\Control\MyTabOpenMode.cs" />
+    <Compile Include="Models\MyTabOpenMode.cs" />
     <Compile Include="Apps\Browser\Handler\MenuHandler.cs" />
     <Compile Include="Boot\BootPrepare.cs" />
-    <Compile Include="CustomControls\MyContextMenu\InputBoxContextMenu.cs">
+    <Compile Include="CustomControls\ContextMenu\InputBoxContextMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CustomControls\MyContextMenu\InputBoxContextMenu.Designer.cs">
+    <Compile Include="CustomControls\ContextMenu\InputBoxContextMenu.Designer.cs">
       <DependentUpon>InputBoxContextMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomControls\MyContextMenu\CustomContextMenuItem.cs">
+    <Compile Include="CustomControls\ContextMenu\CustomContextMenuItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CustomControls\MyContextMenu\CustomContextMenuItem.Designer.cs">
+    <Compile Include="CustomControls\ContextMenu\CustomContextMenuItem.Designer.cs">
       <DependentUpon>CustomContextMenuItem.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomControls\PopUpForm.cs">
+    <Compile Include="CustomFroms\PopUpForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomControls\PopUpForm.Designer.cs">
+    <Compile Include="CustomFroms\PopUpForm.Designer.cs">
       <DependentUpon>PopUpForm.cs</DependentUpon>
     </Compile>
     <Compile Include="DataRepository\BaseRepository.cs" />
@@ -174,10 +174,10 @@
     <Compile Include="CustomControls\FormTitle.Designer.cs">
       <DependentUpon>FormTitle.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomControls\MyForm.cs">
+    <Compile Include="CustomFroms\MyForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomControls\MyForm.Designer.cs">
+    <Compile Include="CustomFroms\MyForm.Designer.cs">
       <DependentUpon>MyForm.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomControls\MyTabControlPanel.cs">
@@ -201,16 +201,16 @@
     <Compile Include="CustomControls\MyTabControl.Designer.cs">
       <DependentUpon>MyTabControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Apps\Browser\Control\MyPage.cs">
+    <Compile Include="CustomControls\MyPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Apps\Browser\Control\MyPage.Designer.cs">
+    <Compile Include="CustomControls\MyPage.Designer.cs">
       <DependentUpon>MyPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomControls\FullScreenForm.cs">
+    <Compile Include="CustomFroms\FullScreenForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomControls\FullScreenForm.Designer.cs">
+    <Compile Include="CustomFroms\FullScreenForm.Designer.cs">
       <DependentUpon>FullScreenForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\FormSide.cs" />
@@ -237,43 +237,43 @@
     <EmbeddedResource Include="Apps\Browser\Browser.resx">
       <DependentUpon>Browser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\MyContextMenu\InputBoxInPageContextMenu.resx">
+    <EmbeddedResource Include="CustomControls\ContextMenu\InputBoxInPageContextMenu.resx">
       <DependentUpon>InputBoxInPageContextMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomControls\PopUpControl.resx">
       <DependentUpon>PopUpControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\MyContextMenu\HistoryContextMenu.resx">
+    <EmbeddedResource Include="CustomControls\ContextMenu\HistoryContextMenu.resx">
       <DependentUpon>HistoryContextMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\MyContextMenu\HistoryContextMenuItem.resx">
+    <EmbeddedResource Include="CustomControls\ContextMenu\HistoryContextMenuItem.resx">
       <DependentUpon>HistoryContextMenuItem.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\MyContextMenu\OtherContextMenu.resx">
+    <EmbeddedResource Include="CustomControls\ContextMenu\OtherContextMenu.resx">
       <DependentUpon>OtherContextMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\MyContextMenu\TextContextMenu.resx">
+    <EmbeddedResource Include="CustomControls\ContextMenu\TextContextMenu.resx">
       <DependentUpon>TextContextMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\MyContextMenu\LinkContextMenu.resx">
+    <EmbeddedResource Include="CustomControls\ContextMenu\LinkContextMenu.resx">
       <DependentUpon>LinkContextMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomControls\FormTitle.resx">
       <DependentUpon>FormTitle.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\MyContextMenu\InputBoxContextMenu.resx">
+    <EmbeddedResource Include="CustomControls\ContextMenu\InputBoxContextMenu.resx">
       <DependentUpon>InputBoxContextMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\MyContextMenu\CustomContextMenuItem.resx">
+    <EmbeddedResource Include="CustomControls\ContextMenu\CustomContextMenuItem.resx">
       <DependentUpon>CustomContextMenuItem.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\MyForm.resx">
+    <EmbeddedResource Include="CustomFroms\MyForm.resx">
       <DependentUpon>MyForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomControls\MyTabControlPanel.resx">
       <DependentUpon>MyTabControlPanel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\PopUpForm.resx">
+    <EmbeddedResource Include="CustomFroms\PopUpForm.resx">
       <DependentUpon>PopUpForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomControls\SearchBox.resx">
@@ -282,10 +282,10 @@
     <EmbeddedResource Include="CustomControls\MyTabControl.resx">
       <DependentUpon>MyTabControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Apps\Browser\Control\MyPage.resx">
+    <EmbeddedResource Include="CustomControls\MyPage.resx">
       <DependentUpon>MyPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\FullScreenForm.resx">
+    <EmbeddedResource Include="CustomFroms\FullScreenForm.resx">
       <DependentUpon>FullScreenForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

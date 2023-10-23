@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using test.boot;
+using Cesium.Boot;
+using Cesium.CustomForms;
 
 namespace Cesium.CustomControls
 {

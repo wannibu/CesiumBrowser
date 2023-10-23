@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace test.Events
+namespace Cesium.Events
 {
     public class ExtendedKeyEventArgs : KeyEventArgs
     {

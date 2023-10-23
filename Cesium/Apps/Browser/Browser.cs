@@ -1,12 +1,14 @@
 ﻿using CefSharp;
 using CefSharp.WinForms;
 using Cesium.CustomControls;
+using Cesium.CustomForms;
+using Cesium.CustomFroms;
+using Cesium.Enum;
+using Cesium.Events;
 using Cesium.Utils;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using test.events;
-using test.Events;
 
 namespace Cesium.App.CefBrowser
 {
@@ -160,7 +162,7 @@ namespace Cesium.App.CefBrowser
             this.Title.panelTab.Controls.Add(tab);
             Win32.AnimateWindow(tab.Handle, 100, Win32.AW_HOR_POSITIVE | Win32.AW_ACTIVATE);
             this.Body.Controls.Add(tab.page);
-            if (tab.tabMarginLeft != 0 && tab.OpenMode == Tab.MyTabOpenMode.APPEND)
+            if (tab.tabMarginLeft != 0 && tab.OpenMode == MyTabOpenMode.APPEND)
             {
                 tab.Left = tab.tabMarginLeft;
                 tab.Parent.Width = tab.tabMarginLeft + tab.Width;

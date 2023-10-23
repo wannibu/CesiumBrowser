@@ -1,9 +1,9 @@
-﻿using System;
+﻿using Cesium.App.CefBrowser;
+using Cesium.Enum;
+using System;
 using System.Windows.Forms;
-using Cesium.App.CefBrowser.Tab;
-using Cesium.CustomControls;
 
-namespace Cesium.App.CefBrowser
+namespace Cesium.CustomControls
 {
     public partial class MyTabControlPanel : UserControl
     {

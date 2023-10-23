@@ -1,5 +1,5 @@
 ﻿using CefSharp.WinForms;
-using test.CustomControls;
+using Cesium.CustomControls;
 
 namespace Cesium.CustomControls
 {
@@ -35,15 +35,15 @@ namespace Cesium.CustomControls
             this.tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.line = new System.Windows.Forms.Panel();
             this.panelTool = new System.Windows.Forms.Panel();
-            this.searchBox = new test.CustomControls.SearchBox();
+            this.searchBox = new Cesium.CustomControls.SearchBox();
             this.panelToolRight = new System.Windows.Forms.TableLayoutPanel();
-            this.btnRight3 = new test.CustomControls.PictureButton();
-            this.btnRight1 = new test.CustomControls.PictureButton();
-            this.btnRight2 = new test.CustomControls.PictureButton();
+            this.btnRight3 = new Cesium.CustomControls.PictureButton();
+            this.btnRight1 = new Cesium.CustomControls.PictureButton();
+            this.btnRight2 = new Cesium.CustomControls.PictureButton();
             this.panelToolBarLeft = new System.Windows.Forms.TableLayoutPanel();
-            this.btn_back = new test.CustomControls.PictureButton();
-            this.btn_refresh = new test.CustomControls.PictureButton();
-            this.btn_forward = new test.CustomControls.PictureButton();
+            this.btn_back = new Cesium.CustomControls.PictureButton();
+            this.btn_refresh = new Cesium.CustomControls.PictureButton();
+            this.btn_forward = new Cesium.CustomControls.PictureButton();
             this.panelMenu = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.panelBrowser = new System.Windows.Forms.Panel();
@@ -136,7 +136,7 @@ namespace Cesium.CustomControls
             // 
             // btnRight3
             // 
-            this.btnRight3.BackgroundImage = global::test.Properties.Resources.icons8_more_16;
+            this.btnRight3.BackgroundImage = global::Cesium.Properties.Resources.icons8_more_16;
             this.btnRight3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnRight3.defaultBackImage = true;
             this.btnRight3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -159,7 +159,7 @@ namespace Cesium.CustomControls
             // 
             // btnRight1
             // 
-            this.btnRight1.BackgroundImage = global::test.Properties.Resources.icons8_plug_16;
+            this.btnRight1.BackgroundImage = global::Cesium.Properties.Resources.icons8_plug_16;
             this.btnRight1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnRight1.defaultBackImage = true;
             this.btnRight1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -182,7 +182,7 @@ namespace Cesium.CustomControls
             // 
             // btnRight2
             // 
-            this.btnRight2.BackgroundImage = global::test.Properties.Resources.icons8_user_16;
+            this.btnRight2.BackgroundImage = global::Cesium.Properties.Resources.icons8_user_16;
             this.btnRight2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnRight2.defaultBackImage = true;
             this.btnRight2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -226,7 +226,7 @@ namespace Cesium.CustomControls
             // 
             // btn_back
             // 
-            this.btn_back.BackgroundImage = global::test.Properties.Resources.icons8_back_s1_16;
+            this.btn_back.BackgroundImage = global::Cesium.Properties.Resources.icons8_back_s1_16;
             this.btn_back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_back.defaultBackImage = true;
             this.btn_back.Dock = System.Windows.Forms.DockStyle.Top;
@@ -251,7 +251,7 @@ namespace Cesium.CustomControls
             // 
             // btn_refresh
             // 
-            this.btn_refresh.BackgroundImage = global::test.Properties.Resources.icons8_refresh_16;
+            this.btn_refresh.BackgroundImage = global::Cesium.Properties.Resources.icons8_refresh_16;
             this.btn_refresh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_refresh.defaultBackImage = true;
             this.btn_refresh.Dock = System.Windows.Forms.DockStyle.Top;
@@ -275,7 +275,7 @@ namespace Cesium.CustomControls
             // 
             // btn_forward
             // 
-            this.btn_forward.BackgroundImage = global::test.Properties.Resources.icons8_forward_s1_16;
+            this.btn_forward.BackgroundImage = global::Cesium.Properties.Resources.icons8_forward_s1_16;
             this.btn_forward.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_forward.defaultBackImage = true;
             this.btn_forward.Dock = System.Windows.Forms.DockStyle.Top;

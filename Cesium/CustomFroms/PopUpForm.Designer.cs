@@ -1,4 +1,4 @@
-﻿namespace Cesium.CustomControls
+﻿namespace Cesium.CustomForms
 {
     partial class PopUpForm
     {

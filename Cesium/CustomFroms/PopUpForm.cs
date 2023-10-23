@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using test.events;
+using Cesium.Events;
 
-namespace Cesium.CustomControls
+namespace Cesium.CustomForms
 {
     public partial class PopUpForm : Form
     {

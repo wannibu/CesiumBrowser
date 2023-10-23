@@ -1,12 +1,10 @@
-﻿using System;
+﻿using Cesium.Enum;
+using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
-using Cesium.App.CefBrowser.Tab;
-using Cesium.CustomControls;
-using Cesium.Utils;
 
-namespace Cesium.App.CefBrowser
+namespace Cesium.CustomControls
 {
     public partial class MyTabControl : UserControl
     {

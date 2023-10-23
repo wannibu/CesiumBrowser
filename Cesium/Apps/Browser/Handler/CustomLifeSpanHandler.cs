@@ -1,5 +1,6 @@
 ﻿using CefSharp;
-using Cesium.App.CefBrowser.Tab;
+using Cesium.CustomControls;
+using Cesium.Enum;
 using System;
 
 namespace Cesium.App.CefBrowser

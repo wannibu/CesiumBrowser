@@ -1,4 +1,4 @@
-﻿namespace Cesium.App.CefBrowser
+﻿namespace Cesium.CustomFroms
 {
     partial class FullScreenForm
     {

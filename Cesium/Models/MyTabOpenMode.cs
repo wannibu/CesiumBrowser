@@ -1,4 +1,4 @@
-﻿namespace Cesium.App.CefBrowser.Tab
+﻿namespace Cesium.Enum
 {
     public enum MyTabOpenMode
     {

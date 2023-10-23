@@ -1,4 +1,4 @@
-﻿namespace Cesium.Apps.Browser.Control
+﻿namespace Cesium.CustomControls
 {
     partial class PopUpControl
     {

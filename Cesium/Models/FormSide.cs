@@ -1,4 +1,4 @@
-﻿namespace test
+﻿namespace Cesium.Enum
 {
     public enum FormSide
     {

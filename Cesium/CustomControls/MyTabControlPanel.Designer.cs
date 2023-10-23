@@ -1,4 +1,4 @@
-﻿namespace Cesium.App.CefBrowser
+﻿namespace Cesium.CustomControls
 {
     partial class MyTabControlPanel
     {

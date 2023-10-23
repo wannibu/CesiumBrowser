@@ -1,8 +1,8 @@
 ﻿using CefSharp;
+using Cesium.App.CefBrowser;
+using Cesium.Enum;
 using System;
 using System.Windows.Forms;
-using Cesium.App.CefBrowser;
-using Cesium.App.CefBrowser.Tab;
 
 namespace Cesium.CustomControls
 {

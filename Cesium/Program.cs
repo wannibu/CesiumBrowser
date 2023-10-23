@@ -1,8 +1,9 @@
 ﻿using Cesium.App.CefBrowser;
+using Cesium.CustomControls;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using test.boot;
+using Cesium.Boot;
 
 namespace Cesium
 {
@@ -18,7 +19,7 @@ namespace Cesium
             new BootPrepare();
 
             Browsers = new Dictionary<IntPtr, Browser>();
-            Browser browser = new Browser("https://www.baidu.com");
+            Browser browser = new Browser("");
             Browsers.Add(browser.Handle, browser);
             browser.FormClosing += Browser_FormClosing;
 

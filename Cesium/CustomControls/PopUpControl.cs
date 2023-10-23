@@ -1,20 +1,19 @@
 ﻿using CefSharp;
 using CefSharp.WinForms;
+using Cesium.Enum;
 using System;
 using System.Windows.Forms;
-using Cesium.App.CefBrowser;
-using Cesium.App.CefBrowser.Tab;
 
-namespace Cesium.Apps.Browser.Control
+namespace Cesium.CustomControls
 {
     public partial class PopUpControl : UserControl
     {
         private ChromiumWebBrowser browser;
 
-        public PopUpControl(Cesium.App.CefBrowser.Browser browser1, string url)
+        public PopUpControl(App.CefBrowser.Browser browser1, string url)
         {
             InitializeComponent();
-            this.textBox.ContextMenu = new ContextMenu();
+            this.textBox.ContextMenu = new System.Windows.Forms.ContextMenu();
             browser = new ChromiumWebBrowser(url);
             browser.Dock = DockStyle.Fill;
             browser.Margin = new Padding(0);

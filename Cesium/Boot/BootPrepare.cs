@@ -1,7 +1,7 @@
 ﻿using Cesium.CustomControls;
 using Cesium.DataBase;
 
-namespace test.boot
+namespace Cesium.Boot
 {
     public class BootPrepare
     {

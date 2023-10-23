@@ -1,6 +1,6 @@
 ﻿using CefSharp;
 using Cesium.App.CefBrowser;
-using Cesium.App.CefBrowser.Tab;
+using Cesium.Enum;
 using Cesium.Utils;
 using System;
 using System.Windows.Forms;
