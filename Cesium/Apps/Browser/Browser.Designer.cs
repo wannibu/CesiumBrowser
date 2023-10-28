@@ -39,17 +39,17 @@ namespace Cesium.App.CefBrowser
             // MainBody
             // 
             this.MainBody.Controls.Add(this.Body);
-            this.MainBody.Size = new System.Drawing.Size(1296, 796);
+            this.MainBody.Size = new System.Drawing.Size(1312, 835);
             this.MainBody.Controls.SetChildIndex(this.TitlePanel, 0);
             this.MainBody.Controls.SetChildIndex(this.Body, 0);
             // 
             // TitlePanel
             // 
-            this.TitlePanel.Size = new System.Drawing.Size(1296, 40);
+            this.TitlePanel.Size = new System.Drawing.Size(1312, 40);
             // 
             // Title
             // 
-            this.Title.Size = new System.Drawing.Size(1296, 40);
+            this.Title.Size = new System.Drawing.Size(1312, 40);
             // 
             // Body
             // 
@@ -57,13 +57,13 @@ namespace Cesium.App.CefBrowser
             this.Body.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Body.Location = new System.Drawing.Point(0, 40);
             this.Body.Name = "Body";
-            this.Body.Size = new System.Drawing.Size(1296, 756);
+            this.Body.Size = new System.Drawing.Size(1312, 795);
             this.Body.TabIndex = 2;
             // 
             // Browser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.ClientSize = new System.Drawing.Size(1300, 800);
+            this.ClientSize = new System.Drawing.Size(1316, 839);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Browser";
             this.Activated += new System.EventHandler(this.Browser_Activated);

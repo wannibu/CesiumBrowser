@@ -332,7 +332,6 @@
     <Content Include="Plugins\pepflashplayer.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\Logo.png" />
     <None Include="Resources\qrcode.png" />
     <None Include="Resources\check.png" />
     <None Include="Resources\tab_close_s2.png" />
